@@ -1,6 +1,6 @@
 import React from "react";
 
-function Nav() {
+export default () => {
   return (
     <ul className="Nav">
       <li>
@@ -11,6 +11,4 @@ function Nav() {
       </li>
     </ul>
   );
-}
-
-export default Nav;
+};
